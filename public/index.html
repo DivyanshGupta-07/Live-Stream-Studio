@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Streamyard-Clone</h1>
+      <video src="" id="user-video" autoplay muted></video>
+      <input type="text" id="key" placeholder="Enter Your Secret-Key" />
+      <button id="start-btn">Start Stream</button>
+      <button id="stop-btn">Stop Stream</button>
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
